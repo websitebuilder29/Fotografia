@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicio profesional de fotografía Digital Shot por Gabriel Hernández. Capturamos tus mejores momentos con técnica profesional.">
+    <meta name="keywords" content="fotografía, sesiones fotográficas, fotógrafo profesional, XV años, bodas, retratos">
+    <title>Gabriel Hernández - Digital Shot | Fotógrafo Profesional</title>
+    
+    <!-- Preload para fuentes críticas -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" as="style">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Favicon mejorado -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%23FF6B6B%22>📸</text></svg>">
+    
+    <!-- Open Graph para redes sociales -->
+    <meta property="og:title" content="Gabriel Hernández - Digital Shot">
+    <meta property="og:description" content="Servicio profesional de fotografía. Tu mejor ángulo, en cualquier formato.">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div class="particles" id="particles"></div>
+    
+    <!-- Header con navegación -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-camera-retro"></i>
+                    <div class="logo-pulse"></div>
+                </div>
+                <div class="logo-text">
+                    <h1 class="logo-name">GABRIEL HERNÁNDEZ</h1>
+                    <p class="tagline">DIGITAL SHOT</p>
+                </div>
+            </div>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Menú de navegación" aria-expanded="false">
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+            </button>
+            
+            <nav class="nav" aria-label="Navegación principal">
+                <ul id="navMenu">
+                    <li><a href="#home" class="nav-link"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> Acerca</a></li>
+                    <li><a href="#packages" class="nav-link"><i class="fas fa-box-open"></i> Paquetes</a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fas fa-phone-alt"></i> Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" aria-label="Sección principal">
+        <div class="hero-shape hero-shape-1"></div>
+        <div class="hero-shape hero-shape-2"></div>
+        <div class="hero-shape hero-shape-3"></div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="hero-title animate-text">
+                        <span class="title-line">SESIÓN</span>
+                        <span class="title-line">DE FOTOS</span>
+                    </h2>
+                    <h1 class="hero-subtitle">
+                        <span class="subtitle-word">TU</span>
+                        <span class="subtitle-word">MEJOR</span>
+                        <span class="subtitle-word highlight">ÁNGULO</span>
+                        <span class="subtitle-word">EN</span>
+                        <span class="subtitle-word">CUALQUIER</span>
+                        <span class="subtitle-word highlight">FORMATO</span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        Transformamos momentos ordinarios en recuerdos extraordinarios 
+                        con nuestra técnica profesional y visión creativa.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="https://wa.me/522411560686?text=Hola%20Gabriel,%20me%20interesa%20saber%20más%20sobre%20tus%20servicios%20de%20fotografía" 
+                           target="_blank" rel="noopener noreferrer" 
+                           class="btn-whatsapp btn-glow">
+                            <i class="fab fa-whatsapp btn-icon"></i>
+                            <span class="btn-text">Agenda ahora</span>
+                            <span class="btn-phone">241-156-0686</span>
+                            <div class="btn-sparkle"></div>
+                        </a>
+                        
+                        <a href="#packages" class="btn-secondary btn-hover">
+                            <i class="fas fa-images"></i>
+                            <span>Ver Paquetes</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="camera-visual">
+                        <div class="camera-body">
+                            <div class="camera-lens">
+                                <div class="lens-reflection"></div>
+                                <div class="lens-flare"></div>
+                            </div>
+                            <div class="camera-flash"></div>
+                        </div>
+                    </div>
+                    <div class="floating-element floating-1">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="floating-element floating-2">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="floating-element floating-3">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button class="scroll-indicator" aria-label="Desplazarse hacia abajo">
+            <i class="fas fa-chevron-down"></i>
+            <div class="scroll-line"></div>
+        </button>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about" aria-label="Acerca de Digital Shot">
+        <div class="container">
+            <div class="section-title">
+                <div class="title-decoration">
+                    <div class="decoration-line"></div>
+                    <i class="fas fa-camera title-icon"></i>
+                    <div class="decoration-line"></div>
+                </div>
+                <h2 class="title-main">ACERCA DE DIGITAL SHOT</h2>
+                <p class="title-sub">Capturamos tus momentos especiales con pasión y excelencia técnica</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-card card-hover">
+                    <div class="card-icon-wrapper">
+                        <div class="card-icon-circle">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="card-icon-glow"></div>
+                    </div>
+                    <h3 class="card-title">Entrega Rápida</h3>
+                    <p class="card-description">Servicio express para tus necesidades inmediatas en redes sociales y eventos importantes.</p>
+                    <div class="card-footer">
+                        <span class="card-tag">24-48 horas</span>
+                    </div>
+                </div>
+                
+                <div class="about-card card-hover">
+                    <div class="card-icon-wrapper">
+                        <div class="card-icon-circle">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <div class="card-icon-glow"></div>
+                    </div>
+                    <h3 class="card-title">Técnica Profesional</h3>
+                    <p class="card-description">Equipos de última generación y técnica avanzada para resultados de calidad superior.</p>
+                    <div class="card-footer">
+                        <span class="card-tag">Alta gama</span>
+                    </div>
+                </div>
+                
+                <div class="about-card card-hover">
+                    <div class="card-icon-wrapper">
+                        <div class="card-icon-circle">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <div class="card-icon-glow"></div>
+                    </div>
+                    <h3 class="card-title">Edición Avanzada</h3>
+                    <p class="card-description">Procesamiento profesional con corrección de color y retoque para resultados excepcionales.</p>
+                    <div class="card-footer">
+                        <span class="card-tag">Photoshop/Lightroom</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages" id="packages" aria-label="Paquetes de fotografía">
+        <div class="container">
+            <div class="section-title">
+                <div class="title-decoration">
+                    <div class="decoration-line"></div>
+                    <i class="fas fa-gem title-icon"></i>
+                    <div class="decoration-line"></div>
+                </div>
+                <h2 class="title-main">PAQUETES DISPONIBLES</h2>
+                <p class="title-sub">Elige el paquete perfecto para capturar tus momentos especiales</p>
+            </div>
+            
+            <div class="packages-grid">
+                <!-- Paquete Express -->
+                <div class="package-card express card-float">
+                    <div class="package-badge">Excepcional</div>
+                    <div class="package-header">
+                        <div class="package-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="package-name">EXPRESS</h3>
+                        <div class="package-price">
+                            <span class="price-currency">$</span>
+                            <span class="price-amount">350</span>
+                            <span class="price-period">/sesión</span>
+                        </div>
+                    </div>
+                    
+                    <div class="package-content">
+                        <div class="package-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle feature-icon"></i>
+                                <span class="feature-text">Captura con smartphone de alta gama</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle feature-icon"></i>
+                                <span class="feature-text">Fotos digitales originales</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle feature-icon"></i>
+                                <span class="feature-text">Ideal para Instagram, fotos de perfil</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle feature-icon"></i>
+                                <span class="feature-text">1 hora de sesión</span>
+                            </div>
+                        </div>
+                        
+                        <div class="package-action">
+                            <a href="https://wa.me/522411560686?text=Hola%20Gabriel,%20me%20interesa%20el%20paquete%20EXPRESS%20de%20$350" 
+                               target="_blank" rel="noopener noreferrer" 
+                               class="btn-package btn-gradient">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>Agendar este paquete</span>
+                                <div class="btn-ripple"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Paquete Social Media -->
+                <div class="package-card social card-float">
+                    <div class="package-badge package-badge-featured">Muy solicitado</div>
+                    <div class="package-header">
+                        <div class="package-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="package-name">SOCIAL MEDIA</h3>
+                        <div class="package-price">
+                            <span class="price-discount">$520</span>
+                            <span class="price-currency">$</span>
+                            <span class="price-amount">460</span>
+                            <span class="price-period">/sesión</span>
+                        </div>
+                    </div>
+                    
+                    <div class="package-content">
+                        <div class="package-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle feature-icon"></i>
+                                <span class="feature-text">Cámara profesional full frame</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle feature-icon"></i>
+                                <span class="feature-text">Fotos en alta resolución (JPG)</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle feature-icon"></i>
+                                <span class="feature-text">Ideal para retratos y eventos familiares</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle feature-icon"></i>
+                                <span class="feature-text">1 hora 30 minutos de sesión</span>
+                            </div>
+                        </div>
+                        
+                        <div class="package-action">
+                            <a href="https://wa.me/522411560686?text=Hola%20Gabriel,%20me%20interesa%20el%20paquete%20SOCIAL%20MEDIA%20de%20$460" 
+                               target="_blank" rel="noopener noreferrer" 
+                               class="btn-package btn-gradient">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>Agendar este paquete</span>
+                                <div class="btn-ripple"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Paquete Pro Session -->
+                <div class="package-card pro card-float">
+                    <div class="package-badge">Premium</div>
+                    <div class="package-header">
+                        <div class="package-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3 class="package-name">PRO SESSION</h3>
+                        <div class="package-price">
+                            <span class="price-currency">$</span>
+                            <span class="price-amount">700</span>
+                            <span class="price-period">/sesión</span>
+                        </div>
+                    </div>
+                    
+                    <div class="package-content">
+                        <div class="package-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle feature-icon"></i>
+                                <span class="feature-text">Equipo profesional completo</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle feature-icon"></i>
+                                <span class="feature-text">Edición avanzada + retoque profesional</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle feature-icon"></i>
+                                <span class="feature-text">Sesión ilimitada</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle feature-icon"></i>
+                                <span class="feature-text">Ideal para XV años, bodas, eventos</span>
+                            </div>
+                        </div>
+                        
+                        <div class="package-action">
+                            <a href="https://wa.me/522411560686?text=Hola%20Gabriel,%20me%20interesa%20el%20paquete%20PRO%20SESSION%20de%20$700" 
+                               target="_blank" rel="noopener noreferrer" 
+                               class="btn-package btn-gradient">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>Agendar este paquete</span>
+                                <div class="btn-ripple"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="packages-note">
+                <div class="note-icon">
+                    <i class="fas fa-info-circle"></i>
+                </div>
+                <p>Todos los paquetes incluyen derechos de uso personal. Para uso comercial consultar tarifas especiales.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" aria-label="Testimonios de clientes">
+        <div class="container">
+            <div class="section-title">
+                <div class="title-decoration">
+                    <div class="decoration-line"></div>
+                    <i class="fas fa-quote-left title-icon"></i>
+                    <div class="decoration-line"></div>
+                </div>
+                <h2 class="title-main">CLIENTES SATISFECHOS</h2>
+                <p class="title-sub">Lo que dicen quienes han confiado en nosotros</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card slide-in">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="quote-text">"Excelente servicio y fotos de gran calidad. Gabriel capturó perfectamente nuestro evento familiar."</p>
+                        <i class="fas fa-quote-right quote-icon"></i>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">María González</h4>
+                            <p class="author-event">Evento Familiar</p>
+                            <div class="author-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-shape shape-1"></div>
+                    <div class="testimonial-shape shape-2"></div>
+                </div>
+                
+                <div class="testimonial-card slide-in">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="quote-text">"Las fotos para mis redes sociales quedaron increíbles. Muy profesionales y con entrega súper rápida."</p>
+                        <i class="fas fa-quote-right quote-icon"></i>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Carlos Ruiz</h4>
+                            <p class="author-event">Sesión Personal</p>
+                            <div class="author-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-shape shape-1"></div>
+                    <div class="testimonial-shape shape-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact" aria-label="Información de contacto">
+        <div class="contact-wave"></div>
+        <div class="container">
+            <div class="section-title">
+                <div class="title-decoration">
+                    <div class="decoration-line"></div>
+                    <i class="fas fa-envelope title-icon"></i>
+                    <div class="decoration-line"></div>
+                </div>
+                <h2 class="title-main">CONTACTO</h2>
+                <p class="title-sub">Agenda tu sesión o consulta sobre nuestros servicios</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card card-hover">
+                        <div class="contact-icon-wrapper">
+                            <div class="contact-icon-circle pulse">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                        </div>
+                        <h3 class="contact-title">WhatsApp Directo</h3>
+                        <p class="contact-detail">241-156-0686</p>
+                        <p class="contact-note">Respuesta en menos de 10 minutos</p>
+                        <a href="https://wa.me/522411560686" 
+                           target="_blank" rel="noopener noreferrer" 
+                           class="btn-contact btn-glow">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Enviar mensaje ahora</span>
+                        </a>
+                    </div>
+                    
+                    <div class="contact-card card-hover">
+                        <div class="contact-icon-wrapper">
+                            <div class="contact-icon-circle">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                        </div>
+                        <h3 class="contact-title">Horarios Disponibles</h3>
+                        <p class="contact-detail">Lunes a Domingo</p>
+                        <p class="contact-detail">9:00 AM - 7:00 PM</p>
+                        <p class="contact-note">Sesiones también fines de semana</p>
+                        <div class="contact-schedule">
+                            <span class="schedule-badge disponible">Disponible</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card card-hover">
+                        <div class="contact-icon-wrapper">
+                            <div class="contact-icon-circle">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                        </div>
+                        <h3 class="contact-title">Cobertura</h3>
+                        <p class="contact-detail">Sesiones en exteriores</p>
+                        <p class="contact-detail">Toda la zona de Tlaxcala</p>
+                        <p class="contact-note">El costo por desplazamiento es separado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-animated">
+                        <i class="fas fa-camera-retro logo-icon"></i>
+                        <div class="logo-shine"></div>
+                    </div>
+                    <div class="footer-brand">
+                        <h3 class="brand-name">GABRIEL HERNÁNDEZ</h3>
+                        <p class="brand-tagline">DIGITAL SHOT</p>
+                        <p class="brand-motto">Transformando momentos en recuerdos eternos</p>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 class="links-title">Navegación</h4>
+                    <ul class="links-list">
+                        <li><a href="#home" class="footer-link"><i class="fas fa-chevron-right"></i> Inicio</a></li>
+                        <li><a href="#about" class="footer-link"><i class="fas fa-chevron-right"></i> Acerca</a></li>
+                        <li><a href="#packages" class="footer-link"><i class="fas fa-chevron-right"></i> Paquetes</a></li>
+                        <li><a href="#contact" class="footer-link"><i class="fas fa-chevron-right"></i> Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4 class="social-title">Conecta con Nosotros</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/gabooouvu?igsh=NHFpZXRvejV3czc4" target="_blank" rel="noopener noreferrer" 
+                           class="social-icon icon-instagram" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/share/16jPaVSMGN/" target="_blank" rel="noopener noreferrer" 
+                           class="social-icon icon-facebook" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://wa.me/522411560686" target="_blank" rel="noopener noreferrer" 
+                           class="social-icon icon-whatsapp" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    <p class="social-note">Síguenos para ver trabajos recientes y promociones</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; <span id="currentYear">2026</span> Digital Shot by Gabriel Hernández. Todos los derechos reservados.</p>
+                </div>
+                <div class="footer-credits">
+                    <p>Hecho con <i class="fas fa-heart heart-beat"></i> para amantes de la fotografía</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Elements -->
+    <a href="https://wa.me/522411560686" target="_blank" rel="noopener noreferrer" 
+       class="float-whatsapp float-element" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <div class="float-ring"></div>
+        <div class="float-pulse"></div>
+    </a>
+
+    <button class="scroll-top float-element" aria-label="Volver arriba">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
